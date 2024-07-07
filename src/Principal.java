@@ -27,7 +27,32 @@ public class Principal {
 
         switch (opcion){
             case 1:
-                ConvertirMoneda.convertir
+                ConvertirMoneda.convertir("USD","ARS",consulta,lectura);
+                break;
+            case 2:
+                ConvertirMoneda.convertir("ARS","USD",consulta,lectura);
+                break;
+            case 3:
+                ConvertirMoneda.convertir("USD","BRL",consulta,lectura);
+                break;
+            case 4:
+                ConvertirMoneda.convertir("BRL","USD",consulta,lectura);
+                break;
+            case 5:
+                ConvertirMoneda.convertir("USD","COP",consulta,lectura);
+                break;
+            case 6:
+                ConvertirMoneda.convertir("COP","USD",consulta,lectura);
+                break;
+            case 7:
+                ConvertirMoneda.convertirOtraMoneda(consulta,lectura);
+                break;
+            case 8:
+                System.out.println("saliendo........");
+            default:
+                System.out.println("Opcion no valida");
+                break;
+
         }
 
         }
