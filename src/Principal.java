@@ -1,6 +1,7 @@
 import ConsultarMoneda.ConsultarMoneda;
 import ConvertirMoneda.ConvertirMoneda;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Principal {
@@ -23,7 +24,7 @@ public class Principal {
                 "7-Convertir otra moneda\n"+
                 "8-Salir");
         opcion = lectura.nextInt();
-        opcion = lectura.nextInt();
+        lectura.nextLine();
 
         switch (opcion){
             case 1:

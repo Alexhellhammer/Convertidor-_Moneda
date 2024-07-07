@@ -19,7 +19,13 @@ public class ConvertirMoneda {
 
     }
 
-    public static void convertirOtraMoneda(ConsultarMoneda.ConsultarMoneda consulta, Scanner lectura) {
+    public static void convertirOtraMoneda(ConsultarMoneda consulta, Scanner lectura) {
+        System.out.println("Ingrese el codigo de la moneda que quiere convertir");
+        String monedaBase = lectura.nextLine().toUpperCase();
+        System.out.println("Ingrese la moneda objetivo:");
+        String monedaObjetivo = lectura.nextLine().toUpperCase();
+        convertir(monedaBase,monedaObjetivo,consulta,lectura);
+
     }
 
 }
