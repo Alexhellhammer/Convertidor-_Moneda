@@ -4,7 +4,7 @@ import ConvertirMoneda.ConvertirMoneda;
 import javax.swing.*;
 import java.util.Scanner;
 
-public class Principal {6
+public class Principal {
     public static void main(String[] args) {
 
         Scanner lectura = new Scanner(System.in);
