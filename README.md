@@ -16,6 +16,7 @@ Desafio conversor de monedas
 
 
 ###Descripcion
+
 Construccion de mi propio Conversor de Monedas, realizando solicitudes a una API de tasas de cambio en este caso,
 https://www.exchangerate-api.com/
 manipular datos JSON y finalmente a filtrar y mostrar las monedas de interés del usuario.
